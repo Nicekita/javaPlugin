@@ -1,0 +1,10 @@
+name: FirstPlugin
+version: 1.0
+main: plugin.main.FirstPlugin
+commands:
+      setprivate:
+        description: Make chunk private
+        usage: /setprivate on chunk
+      chunkinfo:
+        description: shows info about chunk
+        usage: /chunkinfo on chunk
